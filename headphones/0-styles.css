@@ -1,0 +1,205 @@
+/* ========= GLOBAL ========= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #222;
+}
+
+/* ========= HERO SECTION ========= */
+.hero {
+    background: linear-gradient(rgba(0,0,32,0.75), rgba(0,0,32,0.75)),
+                url("media/headphones_hero_1.jpg") center/cover no-repeat;
+    padding: 30px 8%;
+    text-align: center;
+    color: white;
+    min-height: 90vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.hero-content {
+    margin-top: 80px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 25px 0;
+    background: #ff7373;
+    padding: 12px 28px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hero-text {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ========= SECTION ========= */
+.section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ========= SERVICES ========= */
+.services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.service-card {
+    text-align: center;
+}
+
+.service-card img {
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* ========= RESULTS ========= */
+.results {
+    background: linear-gradient(rgba(0,0,32,0.75), rgba(0,0,32,0.75)),
+                url("headphones-bg.jpg") center/cover no-repeat;
+    padding: 80px 10%;
+    text-align: center;
+    color: white;
+}
+
+.results-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.result-card {
+    background: #ff7373;
+    padding: 40px 20px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    width: 120px;
+    height: 150px;
+    text-align: center;
+}
+
+.result-card span {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+.result-card p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* ========= CONTACT ========= */
+.contact {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    margin-top: 25px;
+    width: 150px;
+}
+
+/* ========= FOOTER ========= */
+.footer {
+    background: #001025;
+    color: white;
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.socials img {
+    width: 22px;
+    margin: 10px;
+}
+
+.copy {
+    margin-top: 15px;
+    font-size: 12px;
+}
